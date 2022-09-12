@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__section {
+    width: 100%;
+    height: 740px;
+   background-image: url("https://s3-alpha-sig.figma.com/img/f0dc/5461/b503eecb5af697457bcd32cf7e54a3fd?Expires=1663545600&Signature=Uiasdtorszk3WgajPewAzf~o06axLR6XdkJmwGEIZDtFw6I2ACkY1a4ZRaxoI5dB9I95F-d0ul2XHIZCxj69mtDTyGowor-KV~C~e~70tTru5uTFgoApAu4mZOn2FYrXfWCmVGcrHKtjPuhz7vU9u51Rjxz6j7aQX1SVxTeKua1TuWOJFP~1syYDUQimE8LFpdf8d7bExZ~iK19i0yXHea8hBwqEFbP6jPIjROSik8DXg~FIVocCG5XJzTsSTtr1dStB3aA50zAfyDxBDE3MpUcOnW7fDS4oSuCGD1OsLGgMN6lzFQWs0T0LU-2IpyAQ66~nfDfhzyRLgHaftgvODg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center; 
+   position: relative;
+}
+
+.nav__list {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-right: 92px;
+    padding-bottom: 26px;
+}
+
+.nav__list-item {
+    font-family: 'Lato';
+    display: flex;
+    color: #A6A6A6;
+    margin-left: 30px;
+}
+
+
+.nav__link {
+    color: currentColor;
+    line-height: 19px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile {
+    width: 100%;
+    max-width: 467px;
+    margin-top: calc(181px - 71px);
+}
+
+.name {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "Lato";
+    margin-bottom: 24px;
+    color: #404040;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #404040;
+}
+
+.btn {
+    padding: 26px 62px;
+    background-color: transparent;
+    color: #404040;
+    font-size: 18px;
+    line-height: 22px;
+}
